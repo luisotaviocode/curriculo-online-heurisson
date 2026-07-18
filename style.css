@@ -1,0 +1,179 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 1. Corpo */
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 2. Cabeçalho */
+header{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: right;
+
+  display: flex;
+  flex-direction: row;
+  gap: 20vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #121212;
+  color: #F8F8F8;
+  padding: 10vh 10vh 26vh 10vh;
+}
+
+
+#principal-img{
+  height: 360px;
+  margin: 5px 0 15px 0;
+  float: left;
+}
+
+/* Título */
+header h1{
+  font-size: 3.4rem;
+}
+
+/* Informações Iniciais */
+header p{
+  font-size: 1.25rem;
+  margin: 40px 0 40px 0;
+}
+
+/* Geral: Sub-Títulos */
+
+h2{
+  font-size: 3rem;
+  margin: 2px;
+  color: #5C4033;
+  text-align: center;
+}
+
+/* 3. Seção "Descrição" */
+.descricao{
+  padding: 20vh 23vh 20vh 23vh;
+}
+
+.descricao h2{
+  margin: 20px 0 30px 0;
+}
+
+/* 4. Experiências */
+.experiencias{
+  background-color: #121212;
+  color: #F8F8F8;
+  padding: 10vh 34vh 26vh 34vh;
+}
+
+.experiencias h2{
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+/* Cargo */
+.experiencias h3{
+  font-size: 2.3rem;
+  margin: 15px 0 15px 0;
+  text-align: center;
+}
+
+/* Empresa */
+.experiencias h4{
+  font-size: 2rem;
+  color: #D8C3A5;
+  margin: 5px 0 5px 0;
+  text-align: center;  
+}
+
+/* Títulos "Descrição" e "Período" */
+.experiencias h5{
+  font-size: 1.5rem;
+  margin: 7px 0 7px 0;
+  
+}
+
+/* Lista de Descrições */
+.experiencias ul{
+  text-emphasis: none;
+  text-align: justify;
+}
+
+/* Período de tempo */
+.experiencias  .periodo-contrato{
+  margin: 0 0 25px 0;
+}
+
+/* 5. Formação */
+.formacao{
+  background-color: #F8F8F8;
+  color: #121212;
+  padding: 10vh 10vh 26vh 10vh;
+
+  text-align: center;
+}
+
+/* Cargo */
+.formacao h3{
+  font-size: 2.75rem;
+  margin: 15px 0 15px 0;
+  text-align: center;
+}
+
+/* Empresa */
+.formacao h4{
+  font-size: 1.5rem;
+  margin: 5px 0 65px 0;
+  text-align: center;  
+}
+
+/* Título "Período de Conclusão" */
+.formacao h5{
+  font-size: 2.4rem;
+  margin: 7px 0 7px 0;
+}
+
+#ano-conclusao{
+  font-weight: 700;
+  font-size: 4rem;
+  color: #5C4033;
+}
+
+/* 6. Habilidades */
+.habilidades{
+  background-color: #5C4033;
+  color: #F8F8F8;
+  padding: 10vh 10vh 10vh 10vh;
+
+  text-align: center;
+}
+
+.habilidades h2{
+  color: #F8F8F8;
+  padding: 0 0 10vh 0;
+}
+
+.habilidades ul{
+  list-style: none;
+}
+
+.habilidades li{
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* 7. Rodapé */
+footer{
+  background-color: #121212;
+  color: #F8F8F8;
+  padding: 20px;
+  font-size: 1.35rem;
+}
