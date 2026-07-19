@@ -1,20 +1,20 @@
 /* Reset */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 /* 1. Corpo */
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 /* 2. Cabeçalho */
-header{
-  font-family: 'Poppins', sans-serif;
+header {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   text-align: right;
@@ -27,94 +27,92 @@ header{
   align-items: center;
 
   background-color: #121212;
-  color: #F8F8F8;
+  color: #f8f8f8;
   padding: 10vh 10vh 26vh 10vh;
 }
 
-
-#principal-img{
+#principal-img {
   height: 360px;
   margin: 5px 0 15px 0;
   float: left;
 }
 
 /* Título */
-header h1{
+header h1 {
   font-size: 3.4rem;
 }
 
 /* Informações Iniciais */
-header p{
+header p {
   font-size: 1.25rem;
   margin: 40px 0 40px 0;
 }
 
 /* Geral: Sub-Títulos */
 
-h2{
+h2 {
   font-size: 3rem;
   margin: 2px;
-  color: #5C4033;
+  color: #5c4033;
   text-align: center;
 }
 
 /* 3. Seção "Descrição" */
-.descricao{
+.descricao {
   padding: 20vh 23vh 20vh 23vh;
 }
 
-.descricao h2{
+.descricao h2 {
   margin: 20px 0 30px 0;
 }
 
 /* 4. Experiências */
-.experiencias{
+.experiencias {
   background-color: #121212;
-  color: #F8F8F8;
+  color: #f8f8f8;
   padding: 10vh 34vh 26vh 34vh;
 }
 
-.experiencias h2{
+.experiencias h2 {
   margin: 0 0 20px 0;
   text-align: center;
 }
 
 /* Cargo */
-.experiencias h3{
+.experiencias h3 {
   font-size: 2.3rem;
   margin: 15px 0 15px 0;
   text-align: center;
 }
 
 /* Empresa */
-.experiencias h4{
+.experiencias h4 {
   font-size: 2rem;
-  color: #D8C3A5;
+  color: #d8c3a5;
   margin: 5px 0 5px 0;
-  text-align: center;  
+  text-align: center;
 }
 
 /* Títulos "Descrição" e "Período" */
-.experiencias h5{
+.experiencias h5 {
   font-size: 1.5rem;
   margin: 7px 0 7px 0;
-  
 }
 
 /* Lista de Descrições */
-.experiencias ul{
+.experiencias ul {
   text-emphasis: none;
   text-align: justify;
 }
 
 /* Período de tempo */
-.experiencias  .periodo-contrato{
+.experiencias .periodo-contrato {
   margin: 0 0 25px 0;
 }
 
 /* 5. Formação */
-.formacao{
-  background-color: #F8F8F8;
+.formacao {
+  background-color: #f8f8f8;
   color: #121212;
   padding: 10vh 10vh 26vh 10vh;
 
@@ -122,58 +120,58 @@ h2{
 }
 
 /* Cargo */
-.formacao h3{
+.formacao h3 {
   font-size: 2.75rem;
   margin: 15px 0 15px 0;
   text-align: center;
 }
 
 /* Empresa */
-.formacao h4{
+.formacao h4 {
   font-size: 1.5rem;
   margin: 5px 0 65px 0;
-  text-align: center;  
+  text-align: center;
 }
 
 /* Título "Período de Conclusão" */
-.formacao h5{
+.formacao h5 {
   font-size: 2.4rem;
   margin: 7px 0 7px 0;
 }
 
-#ano-conclusao{
+#ano-conclusao {
   font-weight: 700;
   font-size: 4rem;
-  color: #5C4033;
+  color: #5c4033;
 }
 
 /* 6. Habilidades */
-.habilidades{
-  background-color: #5C4033;
-  color: #F8F8F8;
+.habilidades {
+  background-color: #5c4033;
+  color: #f8f8f8;
   padding: 10vh 10vh 10vh 10vh;
 
   text-align: center;
 }
 
-.habilidades h2{
-  color: #F8F8F8;
+.habilidades h2 {
+  color: #f8f8f8;
   padding: 0 0 10vh 0;
 }
 
-.habilidades ul{
+.habilidades ul {
   list-style: none;
 }
 
-.habilidades li{
+.habilidades li {
   margin-bottom: 10px;
   font-size: 1.2rem;
 }
 
 /* 7. Rodapé */
-footer{
+footer {
   background-color: #121212;
-  color: #F8F8F8;
+  color: #f8f8f8;
   padding: 20px;
   font-size: 1.35rem;
 }
@@ -181,224 +179,224 @@ footer{
 /* Responsividade (media queries) */
 
 /* Tablet e telas médias */
-@media screen and (max-width: 1005px){
-  header{
+@media screen and (max-width: 1005px) {
+  header {
     gap: 8vh;
     padding: 8vh 6vh 20vh 6vh;
     text-align: center;
   }
 
-  #principal-img{
+  #principal-img {
     height: 320px;
     float: none;
   }
 
-  header h1{
+  header h1 {
     font-size: 3rem;
   }
 
-  h2{
+  h2 {
     font-size: 2.6rem;
   }
 
-  .descricao{
+  .descricao {
     padding: 15vh 8vh;
   }
 
-  .experiencias{
+  .experiencias {
     padding: 10vh 8vh 20vh 8vh;
   }
 
-  .experiencias h3{
+  .experiencias h3 {
     font-size: 2rem;
   }
 
-  .experiencias h4{
+  .experiencias h4 {
     font-size: 1.75rem;
   }
 
-  .formacao{
+  .formacao {
     padding: 10vh 8vh 20vh 8vh;
   }
 
-  .formacao h3{
+  .formacao h3 {
     font-size: 2.4rem;
   }
 
-  .habilidades{
+  .habilidades {
     padding: 10vh 8vh;
   }
 }
 
 /* Mobile */
-@media screen and (max-width: 768px){
-  header{
+@media screen and (max-width: 768px) {
+  header {
     flex-direction: column;
     gap: 2rem;
     padding: 6vh 1.5rem 12vh 1.5rem;
     text-align: center;
   }
 
-  #principal-img{
+  #principal-img {
     height: 280px;
     float: none;
     margin: 0 auto;
     display: block;
   }
 
-  header h1{
+  header h1 {
     font-size: 2.4rem;
   }
 
-  header p{
+  header p {
     font-size: 1.1rem;
     margin: 20px 0;
   }
 
-  h2{
+  h2 {
     font-size: 2.2rem;
   }
 
-  .descricao{
+  .descricao {
     padding: 8vh 1.5rem;
   }
 
-  .descricao p{
+  .descricao p {
     text-align: justify;
   }
 
-  .experiencias{
+  .experiencias {
     padding: 8vh 1.5rem 16vh 1.5rem;
   }
 
-  .experiencias h3{
+  .experiencias h3 {
     font-size: 1.75rem;
   }
 
-  .experiencias h4{
+  .experiencias h4 {
     font-size: 1.4rem;
   }
 
-  .experiencias h5{
+  .experiencias h5 {
     font-size: 1.25rem;
   }
 
-  .experiencias ul{
+  .experiencias ul {
     padding-left: 1.25rem;
   }
 
-  .formacao{
+  .formacao {
     padding: 8vh 1.5rem 16vh 1.5rem;
   }
 
-  .formacao h3{
+  .formacao h3 {
     font-size: 2rem;
   }
 
-  .formacao h4{
+  .formacao h4 {
     font-size: 1.25rem;
   }
 
-  .formacao h5{
+  .formacao h5 {
     font-size: 1.75rem;
   }
 
-  #ano-conclusao{
+  #ano-conclusao {
     font-size: 3rem;
   }
 
-  .habilidades{
+  .habilidades {
     padding: 8vh 1.5rem;
   }
 
-  .habilidades h2{
+  .habilidades h2 {
     padding-bottom: 5vh;
   }
 
-  .habilidades li{
+  .habilidades li {
     font-size: 1.05rem;
   }
 
-  footer{
+  footer {
     font-size: 1.1rem;
   }
 }
 
 /* Mobile pequeno */
-@media screen and (max-width: 480px){
-  header{
+@media screen and (max-width: 480px) {
+  header {
     gap: 1.5rem;
     padding: 4vh 1rem 8vh 1rem;
   }
 
-  #principal-img{
+  #principal-img {
     height: 220px;
     max-width: 85%;
   }
 
-  header h1{
+  header h1 {
     font-size: 1.85rem;
   }
 
-  header p{
+  header p {
     font-size: 1rem;
     margin: 12px 0;
   }
 
-  h2{
+  h2 {
     font-size: 1.75rem;
   }
 
-  .descricao{
+  .descricao {
     padding: 6vh 1rem;
   }
 
-  .experiencias{
+  .experiencias {
     padding: 6vh 1rem 12vh 1rem;
   }
 
-  .experiencias h3{
+  .experiencias h3 {
     font-size: 1.45rem;
   }
 
-  .experiencias h4{
+  .experiencias h4 {
     font-size: 1.15rem;
   }
 
-  .experiencias h5{
+  .experiencias h5 {
     font-size: 1.1rem;
   }
 
-  .formacao{
+  .formacao {
     padding: 6vh 1rem 12vh 1rem;
   }
 
-  .formacao h3{
+  .formacao h3 {
     font-size: 1.6rem;
   }
 
-  .formacao h4{
+  .formacao h4 {
     font-size: 1.05rem;
     margin-bottom: 40px;
   }
 
-  .formacao h5{
+  .formacao h5 {
     font-size: 1.35rem;
   }
 
-  #ano-conclusao{
+  #ano-conclusao {
     font-size: 2.5rem;
   }
 
-  .habilidades{
+  .habilidades {
     padding: 6vh 1rem;
   }
 
-  .habilidades li{
+  .habilidades li {
     font-size: 0.95rem;
   }
 
-  footer{
+  footer {
     font-size: 0.95rem;
     padding: 16px;
   }
